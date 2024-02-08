@@ -5,10 +5,12 @@ This project will guide you through setting up a personal website using Amazon S
 
 Step #1: Design Your Website
 
-Design your own personal website or download an existing template.
+Design your own personal website. Personally, I created a portfolio website for myself.
 
 Step #2: Set Up Amazon S3 Bucket
 
+Amazon S3 is the service that would hold the content of your website.
+S3 is the perfect solution for hosting static website.
 Go to the AWS Management Console and open the Amazon S3 console.
 Click "Create bucket" and enter a unique name for your bucket.
 In the "Properties" section, enable "Static website hosting."
