@@ -1,11 +1,11 @@
 
 Project #1: Host a website on AWS
+
 This project will guide you through setting up a personal website using Amazon S3 and connecting it with a custom domain through Amazon Route 53.
 
 Step #1: Design Your Website
 
 Design your own personal website or download an existing template.
-You can find free templates at free-css.com.
 
 Step #2: Set Up Amazon S3 Bucket
 
