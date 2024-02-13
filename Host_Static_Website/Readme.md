@@ -24,3 +24,5 @@ Choose "Domain registration" and then "Register domain."
 Follow the prompts to purchase your custom domain.
 In the "Route 53 hosted zones," create a new record set.
 Enter your S3 bucket's endpoint as the alias target.
+
+![AWS Project 1](https://github.com/ChannickE/AWS_Projects/assets/148730724/f012badb-fbfa-47d5-a839-01dc3833837e)
