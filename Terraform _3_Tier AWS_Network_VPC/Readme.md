@@ -1,3 +1,5 @@
+[What.is.terraform.docx](https://github.com/ChannickE/AWS_Projects/files/14315456/What.is.terraform.docx)
+
 AWS VPC with Terraform
 
 Terraform is an open-source Infrastructure as Code (IaC) software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL), or optionally, JSON. Terraform enables users to manage various cloud services (such as AWS, Azure, Google Cloud Platform, etc.), as well as on-premises infrastructure and services.
