@@ -24,6 +24,7 @@ Step 3: Write Terraform Configuration
 To write our code, we will create two directories. One directory will be for instance vpc called modules/vpc and the other one I named Jupiter-website-ecs which will contain the vpc that we want to create referring to module/vpc. So in the future if we want to create a different vpc with different cidr blocks we can just refer to modules\vpc.
 In modules\vpc will contain 
 main.tf(creation of vpc, internet gateway, subnest and AZs),
+![Screenshot 2024-02-16 135611](https://github.com/ChannickE/AWS_Projects/assets/148730724/1c1638bd-1920-4f00-a12d-c81e1390309b)
 
 
 
