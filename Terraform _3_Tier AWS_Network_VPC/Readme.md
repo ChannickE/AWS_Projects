@@ -24,7 +24,11 @@ You may create new credentials in your account settings.
  
 Step 3: Write Terraform Configuration
 To write our code, we will create two directories. One directory will be for instance vpc called modules/vpc and the other one I named Jupiter-website-ecs which will contain the vpc that we want to create referring to module/vpc. So in the future if we want to create a different vpc with different cidr blocks we can just refer to modules\vpc.
-In modules\vpc will contain main.tf(creation of vpc, internet gateway, subnest and AZs), variables.tf(variables that will be used to create our vpc) and outputs.tf(deployed the ID of the created vpc).
+In modules\vpc will contain 
+main.tf(creation of vpc, internet gateway, subnest and AZs), 
+
+
+variables.tf(variables that will be used to create our vpc) and outputs.tf(deployed the ID of the created vpc).
 In the jupter-website-ecs directory, we will have:
 Backend.tf, which would store the terraform state file in S3
 Terraform.tfvars ,which would initiate the variables to the value we want like the region, the vpc cidr and subnets.
