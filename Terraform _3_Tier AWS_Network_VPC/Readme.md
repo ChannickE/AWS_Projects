@@ -5,16 +5,14 @@ With Terraform, infrastructure is defined in configuration files, which describe
 
 
 
-
-
-
-
-
 Step 1: Set up Terraform and VsCode
+
 Install Terraform on your local machine. You can download Terraform from the official website: https://www.terraform.io/downloads.html
 Once installed, ensure that the Terraform binary is added to your system's PATH.
 Connect Terraform to your AWS Account. In this website https://registry.terraform.io/providers/hashicorp/aws/latest/docs, there are all steps necessary to set up terraform and AWS.
+
 Step 2: Configure AWS Credentials
+
 Obtain your AWS Access Key ID and Secret Access Key from the AWS Management Console.
 Configure your AWS credentials using one of the following methods:
 AWS CLI: Run aws configure and input your AWS Access Key ID and Secret Access Key.
@@ -25,7 +23,9 @@ You may create new credentials in your account settings.
 Step 3: Write Terraform Configuration
 To write our code, we will create two directories. One directory will be for instance vpc called modules/vpc and the other one I named Jupiter-website-ecs which will contain the vpc that we want to create referring to module/vpc. So in the future if we want to create a different vpc with different cidr blocks we can just refer to modules\vpc.
 In modules\vpc will contain 
-main.tf(creation of vpc, internet gateway, subnest and AZs), 
+main.tf(creation of vpc, internet gateway, subnest and AZs),
+
+
 
 
 variables.tf(variables that will be used to create our vpc) and outputs.tf(deployed the ID of the created vpc).
