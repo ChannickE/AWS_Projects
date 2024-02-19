@@ -14,7 +14,7 @@ AWS Amplify is a set of products and tools that enable mobile and front-end web 
 
 Step 2: The math Functionality
 
-In this step, we are creating a lamda function that will will implement the function with Python.
+In this step, we are creating a lamda function that will implement the function with Python.
 We are going to run some Python code to do the calculation that we need which is the base power to the exponent.
 
 
